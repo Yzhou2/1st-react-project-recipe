@@ -1,0 +1,71 @@
+.Header {
+  border: 2px solid orange;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.TopBar {
+  border: 2px solid red;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background: orange;
+}
+
+.top_nav {
+  display: flex;
+  /*flex-direction: row;*/
+}
+
+.body_wrapper {
+  width: 90vw;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.body_inner {
+  height: 350px;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.BottomNav {
+  height: 500px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  height: 300px;
+  width: 80%;
+  border: 2px solid pink;
+
+}
+
+.social {
+  height: 100px;
+  /*width: 75%;*/
+  border: 2px solid tan;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer {
+  height: 50px;
+  width: 75%;
+  border: 2px solid teal;
+
+}
