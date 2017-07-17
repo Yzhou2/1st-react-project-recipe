@@ -1,12 +1,43 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { foods } from '../server/server';
+import OptionInner from './OptionInner';
 
-export default function Bodybox() {
+
+
+class Bodybox extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      recipesHolder: []
+    }
+  }
+
+  componentDidMount() {
+      foods(this.props.main).then((res) => {
+        this.setState({
+          recipesHolder: res
+        })
+      })
+
+  }
+
+
+  render() {
+    var recipeImgURL = this.state.recipesHolder.map( (recipe, i)=>{
+        return (<div className="options" key={i}> <OptionInner recipe={recipe}/> </div>)
+    }).splice(0,4)
+
   return (
-    <div class='bottom_nav'>
-        <div class='options'>IM option1</div>
-        <div class='options'>IM option2</div>
-        <div class='options'>IM option3</div>
-      </div>
-  )
+    <div className="optionWrapper">
+      {recipeImgURL}
+    </div>
+   )
+ }
 }
+
+
+
+
+export default Bodybox;
