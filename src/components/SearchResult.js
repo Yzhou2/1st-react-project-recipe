@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../App.css';
 import Header from './Header';
 import { foods } from '../server/server';
+import { Link } from 'react-router-dom'
 
 
 export default class SearchResult extends Component {
@@ -9,10 +10,11 @@ export default class SearchResult extends Component {
     super(props);
 
     this.state = {
-      searchresult:[]
+      searchresult:[],
+      page:2
     }
 
-
+    this.changePage = this.changePage.bind(this);
   }
 
   componentDidMount() {
@@ -27,6 +29,8 @@ export default class SearchResult extends Component {
 
   componentWillReceiveProps(newProps) {
     // console.log('before http call',this.props.match.params.food)
+    console.log(newProps, 'we are looking for this msg')
+
     foods( newProps.match.params.food ).then((res)=>{
       console.log(newProps.match.params.food);
       this.setState({
@@ -35,7 +39,19 @@ export default class SearchResult extends Component {
     })
   }
 
+  changePage() {
+    // this.setState((previousState)=>({
+    //   page: previousState.page + 1
+    // }))
+    this.setState({
+      page: this.state.page + 1
+    })
+
+  }
+
+
 render() {
+  console.log(this.state.page)
   return (
     <div className='search_Result_container'>
     { this.state.searchresult.length > 0 ? this.state.searchresult.map( ( food, idx ) => {
@@ -49,6 +65,8 @@ render() {
 
       )
     }) : null }
+
+          <Link to={`/searchresults/healthy&page=${this.state.page}`}><button onClick={this.changePage}> see more recipes </button></Link>
 
         </div>
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Bodybox from './Bodybox';
 import TopBar from './TopBar';
+import { Link } from 'react-router-dom';
 
 export default class MainBody extends Component {
   constructor(props) {
@@ -33,8 +34,10 @@ export default class MainBody extends Component {
       <TopBar handleChange={this.handleChange} input={this.state.input} searchFoods={this.searchFoods}/>
       <div className="body_inner">
         <div className='body_title'>
-        Quick & Easy
+        <p>Quick & Easy</p>
+        <Link to='/searchresults/quick'><p>See All</p></Link>
         </div>
+
 
         <Bodybox main={'Quick Easy'}/>
       </div>
@@ -42,7 +45,8 @@ export default class MainBody extends Component {
 
       <div className='body_inner'>
         <div className='body_title'>
-        Foodies Goodies Best
+        <p>Foodies Goodies Best</p>
+        <Link to='/searchresults/best'><p>See All</p></Link>
         </div>
 
         <Bodybox main={'best'}/>
@@ -51,10 +55,11 @@ export default class MainBody extends Component {
 
       <div className='body_inner'>
         <div className='body_title'>
-        Most Recent Recipes
+        <p>Seafood Recipes</p>
+        <Link to='/searchresults/fish'><p>See All</p></Link>
         </div>
 
-        <Bodybox main={''}/>
+        <Bodybox main={'fish shrimp'}/>
       </div>
 
     </div>

@@ -1,5 +1,5 @@
 .backGroundFont {
-  background: #f7f6f4;
+  background: #fdfcfa;
   width: 100%;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -39,10 +39,20 @@
 
   .video {
     position: relative;
+    /*height: 810px;*/
     width: 100%;
-    height: 820px;
+    height: 110vh;
     overflow: hidden;
   }
+
+/*
+  iframe {
+    width: 1800px;
+    height: auto;
+
+  }*/
+
+
 
  .TopBarWords {
    font-size: 40px;
@@ -53,13 +63,15 @@
 
  .input {
    height: 30px;
-   width: 200px;
-   margin-top: 10px;
-   margin-bottom: 10px;
+   width: 400px;
+   background-color: transparent;
+   border: none;
+   outline: none;
  }
 
+
   .psHolder {
-    height: 60px;
+    height: 71px;
     width: 100%;
 
   }
@@ -69,48 +81,62 @@
 
 .TopBar {
   /*border: 2px solid red;*/
-  height: 820px;
+  height: 80px;
   width: 100%;
   position: relative;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-  /*background-image: url(https://images.pexels.com/photos/479396/pexels-photo-479396.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);*/
-  /*background-repeat: no-repeat;
-  background-size: cover;*/
+  display: flex;
+  align-items: center;
+  background: #F7F6F4;
+
 }
 
 .TopCenter  {
-  position: absolute;
-  top: 40%;
-  left:28%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+
+
+}
+.innerHeader {
   width: 600px;
-
+  display: flex;
 }
 
-
-.logo {
-  /*height: 120px;*/
-  width: auto;
-  position: relative;
-  top: 20px;
-
-}
 .logo img{
-  height: 180px;
-  width: 180px;
+position: relative;
+top: 20px;
+left:-10px;
+width: 130px;
+height: 130px;
+-ms-transform: rotate(-15deg); /* IE 9 */
+-webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+transform: rotate(-15deg);
 
 }
 
+.logoNav {
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  top: 57px;
+  height: 100%;
+  font-size: 16px;
+}
+
+.logoNav div {
+  /*border: 2px solid red;*/
+  padding: 28px;
+  position: relative;
+  top: -27px;
+}
+
+.downarrow  {
+  margin-left: 10px;
+}
 
 .body_inner {
   height: 450px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /*border: 2px solid green;*/
 }
 
@@ -194,14 +220,18 @@
   align-items: center;
   justify-content: space-around;
   height: 80%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .body_title {
-  margin-top: 25px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
   /*border: 2px solid blue;*/
-  font-size: 45px;
-  text-align: center;
+  font-size: 20px;
+  /*margin-left: 55px;*/
+  /*text-align: center;*/
 }
 
 .img {
@@ -261,7 +291,7 @@
 }
 
 .innerBoxCard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
   height: 300px;
 }
@@ -312,6 +342,7 @@
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
 a:hover{
