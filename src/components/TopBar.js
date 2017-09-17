@@ -16,7 +16,7 @@ class TopBar extends Component {
         <i className="fa fa-search" aria-hidden="true"></i>
         <input value={this.props.input} onChange={this.props.handleChange} placeholder="LOOKING FOR SOME RECIPES?" className='input'/>
 
-        <button onClick={this.props.searchFoods} className='main_cta'>Search</button>
+        <button onClick={this.props.searchFoods} className='main_cta searchbtn'>Search</button>
 
       </div>
     </div>
