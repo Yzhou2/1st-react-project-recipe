@@ -34,8 +34,8 @@ export default class MainBody extends Component {
       <TopBar handleChange={this.handleChange} input={this.state.input} searchFoods={this.searchFoods}/>
       <div className="body_inner">
         <div className='body_title'>
-        <p>Quick & Easy</p>
-        <Link to='/searchresults/quick'><p>See All</p></Link>
+        <p className="subtitle">Quick & Easy</p>
+        <Link to='/searchresults/quick'><p>SEE ALL</p></Link>
         </div>
 
 
@@ -45,8 +45,8 @@ export default class MainBody extends Component {
 
       <div className='body_inner'>
         <div className='body_title'>
-        <p>Foodies Goodies Best</p>
-        <Link to='/searchresults/best'><p>See All</p></Link>
+        <p className="subtitle">Foodies Goodies Best</p>
+        <Link to='/searchresults/best'><p>SEE ALL</p></Link>
         </div>
 
         <Bodybox main={'best'}/>
@@ -55,8 +55,8 @@ export default class MainBody extends Component {
 
       <div className='body_inner'>
         <div className='body_title'>
-        <p>Seafood Recipes</p>
-        <Link to='/searchresults/fish'><p>See All</p></Link>
+        <p className="subtitle">Seafood Recipes</p>
+        <Link to='/searchresults/fish'><p>SEE ALL</p></Link>
         </div>
 
         <Bodybox main={'fish shrimp'}/>
