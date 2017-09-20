@@ -13,28 +13,30 @@ export default function Header() {
           </div>
 
           <div className="logoNav">
-            <div>
-            <span>Recipes</span>
-            <i className="downarrow fa fa-angle-down" aria-hidden="true"></i>
-            </div>
+              <div className="recipe">
+                <div className="navLine">
+                  <span>Recipes</span>
+                  <i className="downarrow fa fa-angle-down" aria-hidden="true"></i>
+                </div>
 
-            <ul className="recipeDrop">
-               <Link to='/searchresults/healthy'><li> Healthy </li></Link>
+                <ul className="recipeDrop">
+                   <Link to='/searchresults/healthy'><li> Healthy </li></Link>
 
-               <Link to='/searchresults/One-Pot'><li> One-Pot </li></Link>
+                   <Link to='/searchresults/One-Pot'><li> One-Pot </li></Link>
 
-               <Link to='/searchresults/Vegan'><li> Vegan </li></Link>
+                   <Link to='/searchresults/Vegan'><li> Vegan </li></Link>
 
-               <Link to='/searchresults/Vegetarian'><li> Vegetarian </li></Link>
+                   <Link to='/searchresults/Vegetarian'><li> Vegetarian </li></Link>
 
-               <Link to='/searchresults/lowFat'><li> Low-Fat </li></Link>
+                   <Link to='/searchresults/lowFat'><li> Low-Fat </li></Link>
 
-               <Link to='/searchresults/Smoothies'><li>Smoothies</li></Link>
-            </ul>
+                   <Link to='/searchresults/Smoothies'><li>Smoothies</li></Link>
+                </ul>
+              </div>  
 
-            <div>Wine</div>
-            <div>Kitchenware</div>
-            <div>Contact</div>
+            <div className="navLine">Wine</div>
+            <div className="navLine">Kitchenware</div>
+            <div className="navLine">Contact</div>
           </div>
         </div>
 
