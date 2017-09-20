@@ -165,7 +165,7 @@ transform: rotate(-15deg);
 }
 
 .body_inner {
-  height: 450px;
+  height: 386px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -258,6 +258,7 @@ transform: rotate(-15deg);
 
 .body_title {
   margin-top: 30px;
+  margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
   width: 77%;
@@ -268,12 +269,13 @@ transform: rotate(-15deg);
 
 .subtitle {
   font-size: 24px;
+  font-weight: 600;
 }
 
 .img {
-  width: 250px;
-  height: 220px;
-  /*border-radius: 100%;*/
+  width: 274px;
+  height: 164px;
+  /* border-radius: 100%; */
   margin: 0 auto;
   margin-top: 25px;
 
@@ -281,7 +283,7 @@ transform: rotate(-15deg);
 
 .img img {
   height: 100%;
-  width: 250px;
+  width: 100%;
   /*border-radius: 100%;*/
 }
 
@@ -327,9 +329,10 @@ transform: rotate(-15deg);
 }
 
 .innerBoxCard {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
   background-color: white;
-  height: 300px;
+  height: 256px;
+  width: fit-content;
 }
 
 .bottomLogo {
