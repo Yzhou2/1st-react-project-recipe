@@ -157,7 +157,7 @@ transform: rotate(-15deg);
   margin-left: 10px;
 }
 
-.logoNav div:hover {
+.navLine:hover {
   color: #FF4F4F;
   cursor: pointer;
   font-weight: 600;
@@ -265,8 +265,9 @@ text-decoration: none;
   background-color: rgba(255, 125, 106, 0.2);
 }
 
-.recipe .recipeDrop:hover {
-  display: block;
+
+.recipe:hover .recipeDrop {
+    display: block;
 }
 
 

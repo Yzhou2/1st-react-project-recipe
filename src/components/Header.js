@@ -14,7 +14,7 @@ export default function Header() {
 
           <div className="logoNav">
               <div className="recipe">
-                <div className="navLine">
+                <div className="">
                   <span>Recipes</span>
                   <i className="downarrow fa fa-angle-down" aria-hidden="true"></i>
                 </div>
@@ -32,7 +32,7 @@ export default function Header() {
 
                    <Link to='/searchresults/Smoothies'><li>Smoothies</li></Link>
                 </ul>
-              </div>  
+              </div>
 
             <div className="navLine">Wine</div>
             <div className="navLine">Kitchenware</div>
