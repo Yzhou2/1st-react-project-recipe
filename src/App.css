@@ -238,6 +238,34 @@ transform: rotate(-15deg);
   margin-top: 20px;
 }
 
+.recipeDrop {
+position: absolute;
+background-color: white;
+top: 44px;
+width: 218px;
+border: solid 1px #eceeef;
+box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+display: none;
+}
+
+.recipeDrop li {
+cursor: pointer;
+font-weight: 400;
+padding: 15px 0;
+padding-left: 30px;
+border-bottom: solid 1px #eceeef;
+color: #343434;
+text-decoration: none;
+}
+
+.recipeDrop li:hover {
+  color: #FF4F4F;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgba(255, 125, 106, 0.2);
+}
+
+
 
 
 .options {
@@ -383,10 +411,6 @@ a {
   color: black;
 }
 
-a:hover{
-  text-decoration: underline;
-  color: blue;
-}
 
 .publisherTitle {
   color: darkgray;
