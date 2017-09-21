@@ -25,13 +25,28 @@ class Bodybox extends Component {
 
 
   render() {
-    var recipeImgURL = this.state.recipesHolder.map( (recipe, i)=>{
+    var quickeasyOne = this.state.recipesHolder.map( (recipe, i)=>{
         return (<div className="options" key={i}> <OptionInner recipe={recipe}/> </div>)
-    }).splice(0,4)
+    }).splice(23,1)
+
+    var quickeasyTwo = this.state.recipesHolder.map( (recipe, i)=>{
+        return (<div className="options" key={i}> <OptionInner recipe={recipe}/> </div>)
+    }).splice(10,1)
+
+    var quickeasyThree = this.state.recipesHolder.map( (recipe, i)=>{
+        return (<div className="options" key={i}> <OptionInner recipe={recipe}/> </div>)
+    }).splice(21,1)
+
+    var quickeasyFour = this.state.recipesHolder.map( (recipe, i)=>{
+        return (<div className="options" key={i}> <OptionInner recipe={recipe}/> </div>)
+    }).splice(25,1)
 
   return (
     <div className="optionWrapper">
-      {recipeImgURL}
+      {quickeasyOne}
+      {quickeasyTwo}
+      {quickeasyThree}
+      {quickeasyFour}
     </div>
    )
  }
