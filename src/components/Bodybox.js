@@ -14,14 +14,14 @@ class Bodybox extends Component {
     }
   }
 
-  componentDidMount() {
-      foods(this.props.main).then((res) => {
-        this.setState({
-          recipesHolder: res
-        })
-      })
-
-  }
+  // componentDidMount() {
+  //     foods(this.props.main).then((res) => {
+  //       this.setState({
+  //         recipesHolder: res
+  //       })
+  //     })
+  //
+  // }
 
 
   render() {
