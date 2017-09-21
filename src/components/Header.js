@@ -12,9 +12,10 @@ export default function Header() {
             <img src="https://image.ibb.co/jZdvNv/150014282535833.png" alt="150014282535833" />
           </div>
 
-          <div className="logoNav">
-              <div className="recipe">
-                <div className="">
+          <ul className="logoNav">
+
+              <li className="recipe">
+                <div className="navLine recipeNav">
                   <span>Recipes</span>
                   <i className="downarrow fa fa-angle-down" aria-hidden="true"></i>
                 </div>
@@ -32,12 +33,12 @@ export default function Header() {
 
                    <Link to='/searchresults/Smoothies'><li>Smoothies</li></Link>
                 </ul>
-              </div>
+              </li>
 
-            <div className="navLine">Wine</div>
-            <div className="navLine">Kitchenware</div>
-            <div className="navLine">Contact</div>
-          </div>
+            <li className="navLine">Wine</li>
+            <li className="navLine">Kitchenware</li>
+            <li className="navLine">Contact</li>
+          </ul>
         </div>
 
         <div className='top_nav'>

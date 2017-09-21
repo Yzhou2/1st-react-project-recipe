@@ -157,13 +157,6 @@ transform: rotate(-15deg);
   margin-left: 10px;
 }
 
-.navLine:hover {
-  color: #FF4F4F;
-  cursor: pointer;
-  font-weight: 600;
-  background-color: rgba(255, 125, 106, 0.2);
-}
-
 .body_inner {
   height: 386px;
   width: 100%;
@@ -241,7 +234,7 @@ transform: rotate(-15deg);
 .recipeDrop {
 position: absolute;
 background-color: white;
-top: 44px;
+top: 71px;
 width: 218px;
 border: solid 1px #eceeef;
 box-shadow: 0 6px 12px rgba(0,0,0,0.175);
@@ -258,11 +251,13 @@ color: #343434;
 text-decoration: none;
 }
 
-.recipeDrop li:hover {
-  color: #FF4F4F;
-  cursor: pointer;
-  font-weight: 600;
-  background-color: rgba(255, 125, 106, 0.2);
+.recipe {
+  position: relative;
+  top: -29px;
+}
+
+.recipeNav {
+  top: 3px;
 }
 
 
@@ -270,7 +265,13 @@ text-decoration: none;
     display: block;
 }
 
-
+ul li:hover
+{
+  color: #FF4F4F;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgba(255, 125, 106, 0.2);
+}
 
 
 .options {
