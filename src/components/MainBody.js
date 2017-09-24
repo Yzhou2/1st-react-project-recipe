@@ -40,28 +40,28 @@ export default class MainBody extends Component {
 
       <div className="worldwraper">
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/vrgIjOF.png' /></div>
-          <div className="countryName">Mexican</div>
+          <Link to='/searchresults/mexican'><div className="countrypic"><img src='https://i.imgur.com/vrgIjOF.png' /></div></Link>
+          <Link to='/searchresults/mexican'><div className="countryName">Mexican</div></Link>
         </div>
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/Te6WGAy.jpg' /></div>
-          <div className="countryName">American</div>
+          <Link to='/searchresults/American'><div className="countrypic"><img src='https://i.imgur.com/Te6WGAy.jpg' /></div></Link>
+          <Link to='/searchresults/American'><div className="countryName">American</div></Link>
         </div>
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/XbkB3Mc.jpg' /></div>
-          <div className="countryName">Chinese</div>
+          <Link to='/searchresults/chinese'><div className="countrypic"><img src='https://i.imgur.com/XbkB3Mc.jpg' /></div></Link>
+          <Link to='/searchresults/chinese'><div className="countryName">Chinese</div></Link>
         </div>
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/fhyxGvr.png' /></div>
-          <div className="countryName">Japanese</div>
+          <Link to='/searchresults/japanese'><div className="countrypic"><img src='https://i.imgur.com/fhyxGvr.png' /></div></Link>
+          <Link to='/searchresults/japanese'><div className="countryName">Japanese</div></Link>
         </div>
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/R2Jsk0X.jpg' /></div>
-          <div className="countryName">African</div>
+          <Link to='/searchresults/african'><div className="countrypic"><img src='https://i.imgur.com/R2Jsk0X.jpg' /></div></Link>
+          <Link to='/searchresults/african'><div className="countryName">African</div></Link>
         </div>
         <div className="country">
-          <div className="countrypic"><img src='https://i.imgur.com/4IRSgLX.png' /></div>
-          <div className="countryName">Greek</div>
+          <Link to='/searchresults/greek'><div className="countrypic"><img src='https://i.imgur.com/4IRSgLX.png' /></div></Link>
+          <Link to='/searchresults/greek'><div className="countryName">Greek</div></Link>
         </div>
       </div>
 
