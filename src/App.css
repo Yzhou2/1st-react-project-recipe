@@ -4,16 +4,17 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-/*.main_cta {
-  width: 100px;
-  height: 40px;
-  background-color: rgba(255,79,79,30);
-  color:white;
-  font-size: 18px;
-  border: none;
-  outline: none;
-}*/
+.login {
+  background-color: #ff4f4f;
+  width: 102px;
+  height: 47px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
 
 
 .dropdown hr {

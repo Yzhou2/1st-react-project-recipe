@@ -42,7 +42,7 @@ export default function Header() {
         </div>
 
         <div className='top_nav'>
-          <div>Login</div>
+          <div className="login"><span>Login</span></div>
         </div>
     </div>
   )
