@@ -470,7 +470,7 @@ a {
 }
 
 .leftbox {
-  /*border: 2px solid green;*/
+  border: 2px solid green;
   width: 47%;
   height: 100%;
   position: relative;

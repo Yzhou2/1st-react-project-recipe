@@ -42,8 +42,25 @@ export default class MainBody extends Component {
           <div className="viewall">VIEW ALL</div>
         </div>
       </div>
-
       </div>
+
+        <div className="sectionBox">
+          <div className="leftbox">
+            <div className="textBox">
+              <div className="textTitle">Essentials</div>
+              <div className="textBody">Our essential collection emphasize convinience, fun and innovative craftsmanship for your dream kitchen.</div>
+              <div className="viewall">VIEW ALL</div>
+            </div>
+
+            <div className="insertLine"></div>
+          </div>
+
+          <div className="rightbox">
+            <img src='https://i.imgur.com/CzHdUxQ.jpg' />
+          </div>
+      </div>
+
+
     </div>
     )
   }
