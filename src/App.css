@@ -470,7 +470,7 @@ a {
 }
 
 .leftbox {
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   width: 47%;
   height: 100%;
   position: relative;
@@ -540,4 +540,19 @@ a {
   font-weight: bold;
   font-size: 18px;
   color: green;
+}
+
+.leftAltBox {
+  width: 90%;
+}
+
+.altLine {
+  left: 0px;
+  top: 70%;
+  width: 600px;
+}
+
+.tbAltBox {
+  position: absolute;
+  right: 50px;
 }
