@@ -466,18 +466,19 @@ a {
   width: 100%;
   height: 500px;
   display: flex;
+  margin-bottom: 85px;
 }
 
 .leftbox {
   /*border: 2px solid green;*/
-  width: 44%;
+  width: 47%;
   height: 100%;
   position: relative;
 }
 
 .rightbox {
   /*border: 2px solid blue;*/
-  width: 56%;
+  width: 53%;
   height: 100%;
 }
 
@@ -500,4 +501,43 @@ a {
 
 .leftmiddleBox span {
   color: white;
+}
+
+.insertLine {
+  width: 450px;
+  background-color: black;
+  height: 3px;
+  margin-top: 60px;
+  position: absolute;
+  right: 0px;
+}
+
+.textBox {
+  /*border: 2px solid orange;*/
+  margin-top: 80px;
+}
+
+.textTitle {
+  font-weight: bold;
+  padding-top: 50px;
+  letter-spacing: 10px;
+  font-size: 35px;
+  margin-left: 50px;
+}
+
+.textBody {
+  width: 350px;
+  /*border: 2px solid blue;*/
+  height: 100px;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.viewall {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: green;
 }
