@@ -559,11 +559,11 @@ a {
 
 .pot {
   margin-left: 4%;
-  width: 480px;
+  width: 450px;
 }
 
 .potText {
-  width: calc(100% - 480px);
+  width: calc(100% - 450px);
 }
 
 .potTextContent {
