@@ -556,3 +556,16 @@ a {
   position: absolute;
   right: 50px;
 }
+
+.pot {
+  margin-left: 4%;
+  width: 480px;
+}
+
+.potText {
+  width: calc(100% - 480px);
+}
+
+.potTextContent {
+  margin-left: 25%;
+}

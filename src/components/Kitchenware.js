@@ -61,14 +61,14 @@ export default class MainBody extends Component {
       </div>
 
       <div className="sectionBox">
-      <div className="rightbox">
-        <img src='https://i.imgur.com/CzHdUxQ.jpg' />
+      <div className="rightbox pot">
+        <img src="https://preview.ibb.co/mdNp6G/potkit.jpg" />
       </div>
 
-      <div className="leftbox">
+      <div className="leftbox potText">
         <div className="insertLine"></div>
-        <div className="textBox">
-          <div className="textTitle">Essentials</div>
+        <div className="textBox potTextContent">
+          <div className="textTitle">Pots & Pans</div>
           <div className="textBody">Our essential collection emphasize convinience, fun and innovative craftsmanship for your dream kitchen.</div>
           <div className="viewall">VIEW ALL</div>
         </div>
