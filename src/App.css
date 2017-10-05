@@ -558,7 +558,7 @@ a {
 }
 
 .pot {
-  margin-left: 4%;
+  margin-left: 8%;
   width: 450px;
 }
 
@@ -568,4 +568,27 @@ a {
 
 .potTextContent {
   margin-left: 25%;
+}
+
+/* PRODUCTS PAGE________________ */
+
+.productsBanner {
+  /*border: 2px solid orange;*/
+  width: 100%;
+  height: 43vw;
+}
+
+.productsBanner img {
+  width: 100%;
+  height: 100%;
+}
+
+.bannerTitle {
+  position: absolute;
+  top: 20vw;
+  left: 8vw;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
