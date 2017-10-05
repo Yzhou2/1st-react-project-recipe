@@ -594,9 +594,11 @@ a {
 }
 
 .productStore {
-  width: 100%;
-  height: 800px;/* temp */
-  background-color: white;
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 50px;
 }
 
 .storeFrame {
@@ -606,7 +608,7 @@ a {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .storeMenu {
@@ -665,4 +667,5 @@ letter-spacing: 4px;
 ._atc {
   font-size: 13px;
   letter-spacing: 2px;
+  color: red;
 }
