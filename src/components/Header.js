@@ -42,6 +42,7 @@ export default function Header() {
         </div>
 
         <div className='top_nav'>
+          <i className="fa fa-shopping-cart" aria-hidden="true"></i>
           <div className="login"><span>Login</span></div>
         </div>
     </div>

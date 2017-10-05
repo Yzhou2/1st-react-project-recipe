@@ -21,7 +21,7 @@ export default function() {
             <p className='red'><i className="fa fa-facebook-official" aria-hidden="true"></i></p>
             <p className='red'><i className="fa fa-instagram" aria-hidden="true"></i></p>
             <p className='red'><i className="fa fa-twitter-square" aria-hidden="true"></i></p>
-            <p className='foodies'>© 2017 Created By Yiran Heathcote.</p>
+            <p className='foodies'>© 2017 Created By Yiran Zhou.</p>
           </div>
 
 
