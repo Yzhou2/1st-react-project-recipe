@@ -575,7 +575,7 @@ a {
 .productsBanner {
   /*border: 2px solid orange;*/
   width: 100%;
-  height: 43vw;
+  height: 43.5vw;
 }
 
 .productsBanner img {
@@ -591,4 +591,74 @@ a {
   font-size: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.productStore {
+  width: 100%;
+  height: 800px;/* temp */
+  background-color: white;
+}
+
+.storeFrame {
+  /*border: 2px solid green;*/
+  width:85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.storeMenu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.storeMenu div {
+  /*border: 1px solid red;*/
+padding: 20px;
+color: #b2aca4;
+letter-spacing: 4px;
+}
+
+.singleProduct {
+  width: calc(100% / 3);
+  height: 18vw;
+  border: 1px solid black;
+  display: flex;
+}
+
+.producPic {
+  border: 1px solid orange;
+  width: 65%;
+  height: 100%;
+}
+
+.producPic img {
+  width: 100%;
+  height: 100%;
+}
+
+.productInfo {
+  border: 1px solid red;
+  margin: 0 auto;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.price {
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.price span{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+._atc {
+  font-size: 13px;
+  letter-spacing: 2px;
 }
