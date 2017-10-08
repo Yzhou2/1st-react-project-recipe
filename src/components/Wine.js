@@ -14,8 +14,10 @@ class Wine extends Component {
 
 render() {
   return (
-    <div className=''>
-hi
+    <div className='wineStore'>
+      
+      <div className="storeBody"></div>
+      <div className="storeBottom"></div>
     </div>
     )
   }
