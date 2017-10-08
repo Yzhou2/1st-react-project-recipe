@@ -6,6 +6,7 @@ import SearchResult from './components/SearchResult';
 import MainBody from './components/MainBody';
 import Kitchenware from './components/Kitchenware';
 import Products from './components/Products';
+import Wine from './components/Wine';
 
 export default (
   <Switch>
@@ -13,5 +14,6 @@ export default (
     <Route component={ SearchResult } path="/searchresults/:food" />
     <Route component={ Kitchenware } path="/kitchenware"  />
     <Route component={ Products } path="/products"  />
+    <Route component={ Wine } path="/wine"  />
   </Switch>
 )
