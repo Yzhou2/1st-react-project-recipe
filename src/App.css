@@ -732,9 +732,38 @@ letter-spacing: 4px;
 }
 
 .wineDetails {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   position: absolute;
   width: 40vw;
-  height: 400px;
   left: 87%;
+  bottom: 300px;
+}
+
+.wineBuy {
+  background: #ff4f4f;
+  width: 130px;
+  height: 40px;
+  border-radius: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wineBuy span {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.wineTitle {
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.wineDesc {
+  margin-top: 20px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
