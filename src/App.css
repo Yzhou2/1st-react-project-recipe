@@ -684,6 +684,11 @@ letter-spacing: 4px;
 }
 
 /* wine store---------below-------------- */
+* {
+  min-height: 0;
+  min-width: 0;
+}
+
 
 .wineStore {
   background: white;
@@ -713,11 +718,14 @@ letter-spacing: 4px;
   top: -97px;
   display: flex;
   justify-content: space-around;
+  height: 0px;
 }
 
 .innerWrapper {
   position: relative;
   top: -500px;
+  display: flex;
+  align-items: baseline;
 }
 
 .inactiveWine{
@@ -729,6 +737,11 @@ letter-spacing: 4px;
 .activeWine {
   width: auto;
   height: 650px;
+}
+
+.activeX {
+  margin-left: 8vw;
+margin-right: 8vw;
 }
 
 .wineDetails {
