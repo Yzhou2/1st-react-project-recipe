@@ -702,4 +702,39 @@ letter-spacing: 4px;
   background: #F7F6F4;
   /*border: 1px solid orange;*/
   height: 100px;
+  position: relative;
+}
+
+.wineWrapper {
+  position: absolute;
+  /*border: 1px solid red;*/
+  width: 95%;
+  margin-left: 2.5%;
+  top: -97px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.innerWrapper {
+  position: relative;
+  top: -500px;
+}
+
+.inactiveWine{
+  width: auto;
+  height: 150px;
+
+}
+
+.activeWine {
+  width: auto;
+  height: 650px;
+}
+
+.wineDetails {
+  border: 2px solid red;
+  position: absolute;
+  width: 40vw;
+  height: 400px;
+  left: 87%;
 }
