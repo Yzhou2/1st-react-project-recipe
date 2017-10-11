@@ -94,7 +94,7 @@ export default class MainBody extends Component {
 
       <div className='body_inner'>
         <div className='body_title'>
-        <p className="subtitle">Random Browse</p>
+        <p className="subtitle">Random</p>
         <Link to='/searchresults/fish'><p>SEE ALL</p></Link>
         </div>
 

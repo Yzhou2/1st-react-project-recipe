@@ -7,6 +7,7 @@ import MainBody from './components/MainBody';
 import Kitchenware from './components/Kitchenware';
 import Products from './components/Products';
 import Wine from './components/Wine';
+import Cart from './components/Cart';
 
 export default (
   <Switch>
@@ -15,5 +16,6 @@ export default (
     <Route component={ Kitchenware } path="/kitchenware"  />
     <Route component={ Products } path="/products"  />
     <Route component={ Wine } path="/wine"  />
+    <Route component={ Cart } path="/cart"  />
   </Switch>
 )
