@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import { Slider } from 'react-slick';
 
 
 
@@ -15,7 +16,6 @@ class Wine extends Component {
 render() {
   return (
     <div className='wineStore'>
-      
       <div className="storeBody"></div>
       <div className="storeBottom"></div>
     </div>
