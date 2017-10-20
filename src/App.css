@@ -560,8 +560,11 @@ a {
 }
 
 .altLine {
+  background-color: black;
+  height: 3px;
+  margin-top: 60px;
+  position: absolute;
   left: 0px;
-  top: 70%;
   width: 550px;
 }
 
