@@ -4,7 +4,14 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
     "jquery": "^3.2.1",
+    "massive": "^4.4.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-reveal": "^0.6.1",
@@ -21,5 +28,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:8080",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "server/server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yzhou2/1st-react-project-recipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yzhou2/1st-react-project-recipe/issues"
+  },
+  "homepage": "https://github.com/Yzhou2/1st-react-project-recipe#readme"
 }

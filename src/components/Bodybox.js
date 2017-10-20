@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { foods } from '../server/foodAPI';
+import { foods } from './foodAPI';
 import OptionInner from './OptionInner';
 
 
@@ -14,14 +14,14 @@ class Bodybox extends Component {
     }
   }
 
-  // componentDidMount() {
-  //     foods(this.props.main).then((res) => {
-  //       this.setState({
-  //         recipesHolder: res
-  //       })
-  //     })
-  //
-  // }
+  componentDidMount() {
+      foods(this.props.main).then((res) => {
+        this.setState({
+          recipesHolder: res
+        })
+      })
+
+  }
 
 
   render() {

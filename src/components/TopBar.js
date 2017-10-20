@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { foods } from '../server/foodAPI';
+import { foods } from './foodAPI';
 import { Link } from "react-router-dom";
 
 class TopBar extends Component {
