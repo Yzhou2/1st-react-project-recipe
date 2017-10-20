@@ -780,3 +780,10 @@ margin-right: 8vw;
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+/* cart cart cart cart cart cart cart */
+.cartPage {
+  width: 400px;
+  height: 100%;
+  border: 1px solid red;
+}
