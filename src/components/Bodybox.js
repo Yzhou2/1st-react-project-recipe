@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { foods } from '../server/server';
+import { foods } from '../server/foodAPI';
 import OptionInner from './OptionInner';
 
 

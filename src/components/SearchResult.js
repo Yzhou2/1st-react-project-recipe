@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Header from './Header';
-import { foods } from '../server/server';
+import { foods } from '../server/foodAPI';
 import { Link } from 'react-router-dom'
 
 
