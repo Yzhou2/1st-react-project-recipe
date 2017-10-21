@@ -6,11 +6,19 @@ var session = require('express-session');
 var passport = require('passport');
 var cors = require('cors');
 var config = require('./config')
+var controller = require('./controller');
+
+var corsOptions = {
+  origin: "http://localhost:3000",
+  credentials: true,
+  optionsSuccessStatus: 200,
+  // 'Access-Control-Allow-Origin': '*'
+
+ // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
 
 
-
-
-app.use(cors());
+app.use(cors(corsOptions));
 
 app.use(session({
   resave: true, //Without this you get a constant warning about default values
@@ -30,6 +38,9 @@ massive( connectionString ).then( db => {
   // .then( response => {
   //   console.log('User table init'); })
 }).catch(err=>console.log(err));
+
+app.get('/api/getRecipes/:cat', controller.getRecipes)
+
 
 app.listen(8080, ()=> {
   console.log('server is running on 8080');
